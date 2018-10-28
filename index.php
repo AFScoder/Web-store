@@ -1,10 +1,4 @@
-<?php 
-    echo "Это наш репозиторий";
-?>
-<<<<<<< HEAD
 
-<script src="main.js"></script>
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +9,10 @@
     <title>Document</title>
 </head>
 <body>
+
+<?php 
+    echo "Это наш репозиторий";
+?>
     
 </body>
 </html>
->>>>>>> fc1ed78e0b22a669891fc2a9a1bfd863bfaed753
