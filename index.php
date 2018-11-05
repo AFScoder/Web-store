@@ -11,8 +11,9 @@
 <body>
 
 <?php 
-    echo "Это наш репозиторий";
+    
 ?>
+<script src="jquery-3.3.1.min.js"></script>
 <script src="main.js"></script>
 </body>
 </html>
