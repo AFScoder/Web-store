@@ -1,0 +1,42 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    display:flex;
+    position: relative;
+    background-color: white;
+}
+
+.footer-container-item {
+    width: 33%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.footer-container-item a {
+    display: block;
+    color: black;
+}
+
+.footer-container-item a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.footer-container-item h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
