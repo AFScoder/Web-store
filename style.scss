@@ -1,3 +1,10 @@
+// палитра
+$color1: white;
+$color2: black;
+$color3: blue;
+
+
+// стили
 *{
     border:0;
     margin:0;
@@ -17,22 +24,22 @@ body a {
 .footer-container {
     display:flex;
     position: relative;
-    background-color: white;
+    background-color: $color1;
 }
 
 .footer-container-item {
     width: 33%;
-    border: 2px solid black;
+    border: 2px solid $color2;
     text-align: center;
 }
 
 .footer-container-item a {
     display: block;
-    color: black;
+    color: $color2;
 }
 
 .footer-container-item a:hover {
-    color: blue;
+    color: $color3;
     text-decoration: underline;
 }
 

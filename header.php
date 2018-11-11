@@ -9,4 +9,24 @@
 </head>
 <body>
     <div class="wrapper">
+        <header>
+            <!-- логотип -->
+            <div class="header-logo-pic">
+                <img src="images/icons/logo.jpg" alt="">
+            </div>
+            <!-- навигация -->
+            <nav class='categories'>
+                <a href="#">Мужчинам</a>
+                <a href="#">Женщинам</a>
+                <a href="#">Детям</a>
+                <a href="#">Новинки</a>
+                <a href="#">О нас</a>
+            </nav>
+            <!-- вход/корзина -->
+            <nav class="exitShop">
+                <a href="#">Войти</a>
+                <a href="#">Корзина</a>
+            </nav>
+        </header>
+        
         
