@@ -1,0 +1,68 @@
+// палитра
+$color1: white;
+$color2: black;
+$color3: blue;
+
+
+// стили
+*{
+    border:0;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body a {
+    text-decoration: none;
+    color: $color2;
+        
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    header{
+        display: flex;
+        width:100%;
+        position: relative;
+        z-index: 99999;
+        nav.categories{
+            position: absolute;
+            width: 40%;
+            left: 20%;
+        };
+        nav.exitShop{
+            position: absolute;
+            width: 40%;
+            right: 10px;
+            text-align: right;
+        };
+    }
+}
+
+.footer-container {
+    display:flex;
+    position: relative;
+    background-color: $color1;
+}
+
+.footer-container-item {
+    width: 33%;
+    border: 2px solid $color2;
+    text-align: center;
+}
+
+.footer-container-item a {
+    display: block;
+    color: $color2;
+}
+
+.footer-container-item a:hover {
+    color: $color3;
+    text-decoration: underline;
+}
+
+.footer-container-item h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}

@@ -1,19 +1,12 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-
-<?php 
-    
+<?php
+    include "header.php";
 ?>
+<main>
+    Это основная часть
+</main>
+<!-- Скрипты почему-то не работают -->
 <script src="jquery-3.3.1.min.js"></script>
-<script src="main.js"></script>
-</body>
-</html>
+<script src="main1.js"></script>
+<?php
+    include ('footer.php');
+?>
