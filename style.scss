@@ -14,6 +14,8 @@ $color3: blue;
 
 body a {
     text-decoration: none;
+    color: $color2;
+        
 }
 
 .wrapper {
@@ -33,6 +35,7 @@ body a {
             position: absolute;
             width: 40%;
             right: 10px;
+            text-align: right;
         };
     }
 }
