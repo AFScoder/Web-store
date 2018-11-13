@@ -18,15 +18,22 @@ body a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  position: relative;
+  z-index: 99999;
 }
 
-.wrapper header nav a {
-  color: black;
+.wrapper header nav.categories {
+  position: absolute;
+  width: 40%;
+  left: 20%;
+  color: green;
 }
 
-.wrapper header nav .categories {
-  margin-left: 50px;
-  margin-right: 30%;
+.wrapper header nav.exitShop {
+  position: absolute;
+  width: 40%;
+  right: 10px;
 }
 
 .footer-container {
