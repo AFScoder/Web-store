@@ -11,7 +11,7 @@
 <body>
 
 <?php 
-    
+    echo("Проверка мобильного приложерия AWD");
 ?>
 <script src="jquery-3.3.1.min.js"></script>
 <script src="main.js"></script>
