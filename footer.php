@@ -21,9 +21,9 @@
                         <p> &copy 2018 Все права защищены</p>
                     </div>
                     <div class="footer-container-item-icons">
-                        <img src="/icons/twitter.png" alt="Twitter">
-                        <img src="/icons/facebook.png" alt="Facebook">
-                        <img src="/icons/instagram.png" alt="Instagram">
+                        <img src="images/icon/twitter.png" alt="Twitter">
+                        <img src="images/icon/facebook.png" alt="Facebook">
+                        <img src="images/icon/instagram.png" alt="Instagram">
                     </div>
                 </div>
             </div>

@@ -45,24 +45,29 @@ body a {
   background-color: white;
 }
 
-.footer-container-item {
+.footer-container .footer-container-item {
   width: 33%;
-  border: 2px solid black;
   text-align: center;
+  line-height: 1.5;
 }
 
-.footer-container-item a {
+.footer-container .footer-container-item a {
   display: block;
   color: black;
 }
 
-.footer-container-item a:hover {
+.footer-container .footer-container-item a:hover {
   color: blue;
   text-decoration: underline;
 }
 
-.footer-container-item h2 {
+.footer-container .footer-container-item h2 {
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.footer-container .footer-container-item img {
+  width: 10px;
+  height: 10px;
 }
 /*# sourceMappingURL=style.css.map */
