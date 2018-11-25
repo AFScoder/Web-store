@@ -1,4 +1,4 @@
 // Файл для скриптов
 // Test
 
-alert ("Hello, world!");
+// alert ("Hello, world!");
