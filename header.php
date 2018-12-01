@@ -24,8 +24,8 @@
             </nav>
             <!-- вход/корзина -->
             <nav class="exitShop">
-                <a href="#">Войти</a>
-                <a href="#">Корзина</a>
+                <a href="#" class='enter'>Войти</a>
+                <a href="#" class='basket'>Корзина</a>
             </nav>
         </header>
         

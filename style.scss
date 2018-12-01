@@ -28,14 +28,26 @@ body a {
         z-index: 99999;
         nav.categories{
             position: absolute;
-            width: 40%;
+            width: 50%;
             left: 20%;
+            a{
+                margin-right: 30px;
+            }
         };
         nav.exitShop{
             position: absolute;
             width: 40%;
-            right: 10px;
+            
+            right: 50px;
             text-align: right;
+            a{
+                position: relative;
+                right: 50px;
+            }
+            a.enter::before{
+                position: absolute;
+                background: url(icons/enter.svg);
+            }
         };
     }
 }

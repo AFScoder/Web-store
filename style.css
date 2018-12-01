@@ -26,15 +26,29 @@ body a {
 
 .wrapper header nav.categories {
   position: absolute;
-  width: 40%;
+  width: 50%;
   left: 20%;
+}
+
+.wrapper header nav.categories a {
+  margin-right: 30px;
 }
 
 .wrapper header nav.exitShop {
   position: absolute;
   width: 40%;
-  right: 10px;
+  right: 50px;
   text-align: right;
+}
+
+.wrapper header nav.exitShop a {
+  position: relative;
+  right: 50px;
+}
+
+.wrapper header nav.exitShop a.enter::before {
+  position: absolute;
+  background: url(icons/enter.svg);
 }
 
 .footer-container {
