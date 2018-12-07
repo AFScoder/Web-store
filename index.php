@@ -2,7 +2,11 @@
     include "header.php";
 ?>
 <main>
-    Это основная часть
+    <h1>новые поступления весны</h1>
+    <h2>мы подготовили для вас лучшие новинки сезона</h2>
+    <button>
+        <a href="#">посмотреть новинки</a>
+    </button>
 </main>
 <script src="jquery-3.3.1.min.js"></script>
 <!-- <script src="main.js"></script> -->

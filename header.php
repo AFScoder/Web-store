@@ -12,7 +12,7 @@
         <header>
             <!-- логотип -->
             <div class="header-logo-pic">
-                <img src="images/icons/logo.jpg" alt="">
+                <img src="images/icon/logo.jpg" alt="">
             </div>
             <!-- навигация -->
             <nav class='categories'>

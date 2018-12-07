@@ -22,12 +22,19 @@ body a {
   width: 100%;
   position: relative;
   z-index: 99999;
+  margin: 10px 0;
 }
 
 .wrapper header nav.categories {
   position: absolute;
   width: 40%;
   left: 20%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .wrapper header nav.exitShop {
@@ -37,17 +44,58 @@ body a {
   text-align: right;
 }
 
+.wrapper main {
+  position: relative;
+}
+
+.wrapper main h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wrapper main h2 {
+  text-align: center;
+  font-style: italic;
+  color: grey;
+  margin: 20px 0;
+}
+
+.wrapper main h2::first-letter {
+  text-transform: uppercase;
+}
+
+.wrapper main button {
+  text-transform: uppercase;
+  color: grey;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.wrapper main button a:hover {
+  color: blue;
+}
+
 .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: relative;
   background-color: white;
+  margin: 20px 0;
 }
 
 .footer-container .footer-container-item {
   width: 33%;
-  text-align: center;
+  text-align: left;
   line-height: 1.5;
 }
 
