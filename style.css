@@ -5,6 +5,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background: #b6b3b3;
+}
+
 body a {
   text-decoration: none;
   color: black;
@@ -13,6 +17,9 @@ body a {
 .wrapper {
   width: 1200px;
   margin: 0 auto;
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 .wrapper header {
@@ -37,6 +44,10 @@ body a {
   display: flex;
 }
 
+.wrapper header nav.categories a:hover {
+  color: blue;
+}
+
 .wrapper header nav.exitShop {
   position: absolute;
   width: 40%;
@@ -56,7 +67,7 @@ body a {
 .wrapper main h2 {
   text-align: center;
   font-style: italic;
-  color: grey;
+  color: #b6b3b3;
   margin: 20px 0;
 }
 
@@ -84,7 +95,41 @@ body a {
   color: blue;
 }
 
-.footer-container {
+.wrapper main button:hover {
+  background: #b6b3b3;
+}
+
+.wrapper main .gallery {
+  border: 1px solid black;
+  height: 800px;
+  vertical-align: middle;
+  margin-top: 20px;
+}
+
+.wrapper main .gallery p {
+  text-align: center;
+  font-size: 50px;
+  color: red;
+}
+
+.wrapper main .subscribe h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: black;
+  font-style: normal;
+}
+
+.wrapper main .subscribe h3 {
+  color: #b6b3b3;
+  text-align: center;
+  font-style: italic;
+}
+
+.wrapper main .subscribe h3:first-letter {
+  text-transform: uppercase;
+}
+
+.wrapper footer .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,29 +138,47 @@ body a {
   margin: 20px 0;
 }
 
-.footer-container .footer-container-item {
+.wrapper footer .footer-container .footer-container-item {
   width: 33%;
   text-align: left;
   line-height: 1.5;
 }
 
-.footer-container .footer-container-item a {
+.wrapper footer .footer-container .footer-container-item a {
   display: block;
   color: black;
 }
 
-.footer-container .footer-container-item a:hover {
+.wrapper footer .footer-container .footer-container-item a:hover {
   color: blue;
   text-decoration: underline;
 }
 
-.footer-container .footer-container-item h2 {
+.wrapper footer .footer-container .footer-container-item h2 {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
 }
 
-.footer-container .footer-container-item img {
-  width: 10px;
-  height: 10px;
+.wrapper footer .footer-container .footer-container-item img {
+  width: 30px;
+  height: 30px;
+}
+
+.wrapper footer .footer-container .footer-container-item .footer-container-item-text {
+  margin-bottom: 10px;
+}
+
+.wrapper footer .footer-container .footer-container-item .footer-container-item-text a {
+  display: inline;
+}
+
+.wrapper footer .footer-container .footer-container-item .footer-container-item-icons a {
+  display: inline;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.wrapper footer .footer-container .footer-container-item .footer-container-item-icons a:hover {
+  border: 2px solid white;
 }
 /*# sourceMappingURL=style.css.map */
