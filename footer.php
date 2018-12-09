@@ -15,10 +15,22 @@
                     <a href="#">Контакты</a>
                 </div>
                 <div class="footer-container-item">
-                    <h2>Мы в социальных сетях</h2>
-                    <p>Сайт разработан в inordic.ru</p>
-                    <p> &copy 2018 Все права защищены</p>
-                    <!-- Тут будут иконки -->
+                    <div class="footer-container-item-text">
+                        <h2>Мы в социальных сетях</h2>
+                        <p>Сайт разработан в </p> <a href="https://inordic.ru/">inordic.ru</a> 
+                        <p> &copy 2018 Все права защищены</p>
+                    </div>
+                    <div class="footer-container-item-icons">
+                        <a href="https://twitter.com/?lang=ru"> 
+                            <img src="images/icon/twitter.png" alt="Twitter"> 
+                        </a>
+                        <a href="https://ru-ru.facebook.com/"> 
+                            <img src="images/icon/facebook.png" alt="Facebook">
+                         </a>
+                        <a href="https://www.instagram.com/?hl=ru">
+                            <img src="images/icon/instagram.png" alt="Instagram">
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>

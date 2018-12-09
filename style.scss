@@ -2,6 +2,7 @@
 $color1: white;
 $color2: black;
 $color3: blue;
+$color4: rgb(182, 179, 179);
 
 // стили
 *{
@@ -11,69 +12,164 @@ $color3: blue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body a {
-    text-decoration: none;
-    color: $color2;
-        
+body {
+    background: $color4;
+    a {
+        text-decoration: none;
+        color: $color2;
+    };
 }
 
 .wrapper {
     width: 1200px;
     margin: 0 auto;
-    header{
+    background: $color1;
+    padding: 20px;
+    margin-top: 20px;
+    header {
         display: flex;
         width:100%;
         position: relative;
         z-index: 99999;
+        margin: 10px 0;
         nav.categories{
             position: absolute;
-            width: 50%;
+            width: 40%;
             left: 20%;
-            a{
-                margin-right: 30px;
+            justify-content: space-between;
+            display: flex;
+            a:hover {
+                color: $color3;
             }
         };
         nav.exitShop{
             position: absolute;
             width: 40%;
-            
-            right: 50px;
+            right: 10px;
             text-align: right;
-            a{
-                position: relative;
-                right: 50px;
-            }
-            a.enter::before{
-                position: absolute;
-                background: url(icons/enter.svg);
-            }
         };
+    }
+    main {
+        position: relative;
+        h1 {
+            text-transform: uppercase;
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+            font-style: italic;
+            color: $color4;
+            margin: 20px 0;
+        }
+        h2::first-letter {
+            text-transform: uppercase;
+        }
+        button {
+            text-transform: uppercase;
+            color: grey;
+            background-color: $color1;
+            border: 1px solid $color2;
+            padding: 10px;
+            margin: 20px 0;
+            cursor: pointer;
+            display: flex;
+            right: 0;
+            left: 0;
+            margin: auto;
+            a:hover {
+                color: $color3;
+            }
+        }
+        button:hover {
+            background: $color4;
+        }
+
+        .gallery {
+            border: 1px solid black;
+            height: 900px;
+            vertical-align: middle;
+            margin-top: 20px;
+            position: relative;
+            flex-wrap: wrap;
+            
+            
+            .gallery-item {
+                position: absolute;
+                width: 200px;
+                height: 300px;
+                border: 1px solid grey;
+                img{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .subscribe {
+            h2 {
+                text-transform: uppercase;
+                font-weight: 500;
+                color: $color2;
+                font-style: normal;
+            }
+            h3 {
+                color: $color4;
+                text-align: center;
+                font-style: italic;
+            }
+            h3:first-letter {
+                text-transform: uppercase;
+            }
+        }
+    }
+    footer {
+        .footer-container {
+            display:flex;
+            position: relative;
+            background-color: $color1;
+            margin: 20px 0;
+            .footer-container-item {
+                width: 33%;
+                // border: 2px solid $color2;
+                text-align: left;
+                line-height: 1.5;
+                a{
+                    display: block;
+                    color: $color2;
+                }
+                a:hover {
+                    color: $color3;
+                    text-decoration: underline;
+                }
+                h2{
+                    text-transform: uppercase;
+                    font-weight: 500;
+                }
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+                .footer-container-item-text {
+                    margin-bottom: 10px;
+                    a {
+                        display: inline;
+                    }
+                }
+                .footer-container-item-icons {
+                    a {
+                        display: inline;
+                        margin: 10px;
+                        text-decoration: none;
+                    }
+                    a:hover {
+                        border: 2px solid $color1;
+                    }
+                }
+            }
+        }
     }
 }
 
-.footer-container {
-    display:flex;
-    position: relative;
-    background-color: $color1;
-}
 
-.footer-container-item {
-    width: 33%;
-    border: 2px solid $color2;
-    text-align: center;
-}
 
-.footer-container-item a {
-    display: block;
-    color: $color2;
-}
 
-.footer-container-item a:hover {
-    color: $color3;
-    text-decoration: underline;
-}
-
-.footer-container-item h2 {
-    text-transform: uppercase;
-    font-weight: 700;
-}

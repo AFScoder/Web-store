@@ -12,7 +12,7 @@
         <header>
             <!-- логотип -->
             <div class="header-logo-pic">
-                <img src="images/icons/logo.jpg" alt="">
+                <img src="images/icon/logo.jpg" alt="">
             </div>
             <!-- навигация -->
             <nav class='categories'>
@@ -24,9 +24,7 @@
             </nav>
             <!-- вход/корзина -->
             <nav class="exitShop">
-                <a href="#" class='enter'>Войти</a>
-                <a href="#" class='basket'>Корзина</a>
+                <a href="#">Войти</a>
+                <a href="#">Корзина</a>
             </nav>
         </header>
-        
-        
