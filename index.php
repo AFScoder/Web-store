@@ -9,21 +9,50 @@
     </button>
     <div class="gallery">
         <!-- <img src="/pseudoname/web-store/images/1.jpg" alt=""> -->
-        <img src="/pseudoname/web-store/images/2.jpg" alt="">
+
 
         <div class="gallery-item">
             <p>каждый сезон мы подготавливаем для вас исключительно лучшую модную одежду. Следите за новинками!</p>
         </div>
-        <div class="gallery-item"></div>
-        <div class="gallery-item"></div>
-        <div class="gallery-item"></div>
-        <div class="gallery-item"></div>
-        <div class="gallery-item"></div>
-        <div class="gallery-item"></div>
-        <div class="gallery-item"></div>
-        <div class="gallery-item"></div>
-        <div class="gallery-item"></div>
-        <div class="gallery-item"></div>
+        <div class="gallery-item">
+            <img src="/GitHub/Web-store/images/images/2.jpg" alt="">
+        </div>
+        <div class="gallery-item">
+            <p>1</p>
+        </div>
+        <div class="gallery-item">
+            p{2}
+        </div>
+        <div class="gallery-item">
+            p{3}
+        </div>
+        <div class="gallery-item">
+            p{4}
+        </div>
+        <div class="gallery-item">
+            p{5}
+        </div>
+        <div class="gallery-item">
+            p{6}
+        </div>
+        <div class="gallery-item">
+            p{7}
+        </div>
+        <div class="gallery-item">
+            p{8}
+        </div>
+        <div class="gallery-item">
+            p{9}
+        </div>
+        <div class="gallery-item">
+            p{10}
+        </div>
+        <div class="gallery-item">
+            p{11}
+        </div>
+        <div class="gallery-item">
+            p{12}
+        </div>
     </div>
     <div class="subscribe">
         <h2>будь всегда в курсе выгодных предложений!</h2>
