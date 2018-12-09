@@ -8,14 +8,29 @@
         <a href="#">посмотреть новинки</a>
     </button>
     <div class="gallery">
-        <p> Здесь будет блок картинок</p>
+        <!-- <img src="/pseudoname/web-store/images/1.jpg" alt=""> -->
+        <img src="/pseudoname/web-store/images/2.jpg" alt="">
+
+        <div class="gallery-item">
+            <p>каждый сезон мы подготавливаем для вас исключительно лучшую модную одежду. Следите за новинками!</p>
+        </div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
+        <div class="gallery-item"></div>
     </div>
     <div class="subscribe">
         <h2>будь всегда в курсе выгодных предложений!</h2>
         <h3>подписывайся и следи за новинками и выгодными предложениями</h3>
         <form action="">
             <input type="text" placeholder="Введите Ваш e-mail">
-            <input type="submit">
+            <button type="submit">Отправить</button>
         </form>
     </div>
 </main>
