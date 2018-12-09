@@ -7,6 +7,28 @@
     <button>
         <a href="#">посмотреть новинки</a>
     </button>
+
+    <div class="test">
+        
+        <div class="test-item">
+            <p>Это тестовый блок</p>
+        </div>
+        <div class="test-item">
+            <img src="/pseudoname/web-store/images/1.jpg" alt="">
+        </div>
+        <div class="test-item">
+            <img src="/pseudoname/web-store/images/2.jpg" alt="">
+        </div>
+        <div class="test-item"></div>
+        <div class="test-item"></div>
+        <div class="test-item"></div>
+        <div class="test-item"></div>
+        <div class="test-item"></div>
+        <div class="test-item"></div>
+        <div class="test-item"></div>
+        <div class="test-item"></div>
+        <div class="test-item"></div>
+    </div>
     <div class="gallery">
         <!-- <img src="/pseudoname/web-store/images/1.jpg" alt=""> -->
         <img src="/pseudoname/web-store/images/2.jpg" alt="">

@@ -50,7 +50,7 @@ body {
         };
     }
     main {
-        position: relative;
+        // position: relative;
         h1 {
             text-transform: uppercase;
             text-align: center;
@@ -84,6 +84,21 @@ body {
             background: $color4;
         }
 
+        .test {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+            height: 800px;
+            margin: 20px 0;
+            .test-item {
+                position: absolute;
+                height: 120px;
+                min-width: 25%;
+                box-sizing: border-box;
+            }
+        }
+
         .gallery {
             border: 1px solid black;
             height: 900px;
@@ -91,12 +106,13 @@ body {
             margin-top: 20px;
             position: relative;
             display: flex;
+            flex-wrap: wrap;
             .gallery-item {
                 position: absolute;
                 width: 200px;
                 height: 300px;
                 border: 1px solid grey;
-            }
+            };
         }
         .subscribe {
             h2 {
