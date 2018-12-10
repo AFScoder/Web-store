@@ -85,17 +85,19 @@ body {
         }
 
         .test {
-            position: relative;
+            // position: relative;
             display: flex;
             flex-wrap: wrap;
             border: 1px solid black;
             height: 800px;
             margin: 20px 0;
+            // overflow: hidden;
             .test-item {
-                position: absolute;
-                height: 120px;
+                // position: absolute;
+                height: 100px;
                 min-width: 25%;
                 box-sizing: border-box;
+
             }
         }
 

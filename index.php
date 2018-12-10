@@ -9,18 +9,23 @@
     </button>
 
     <div class="test">
-        
-        <div class="test-item">
-            <p>Это тестовый блок</p>
-        </div>
+
         <div class="test-item">
             <img src="/pseudoname/web-store/images/1.jpg" alt="">
         </div>
         <div class="test-item">
+            <p>каждый сезон мы подготавливаем для вас исключительно лучшую модную одежду. Следите за новинками!</p>
+        </div>
+        <div class="test-item">
             <img src="/pseudoname/web-store/images/2.jpg" alt="">
         </div>
-        <div class="test-item"></div>
-        <div class="test-item"></div>
+        <div class="test-item">
+            <img src="/pseudoname/web-store/images/3.jpg" alt="">
+        </div>
+        <div class="test-item">
+            <h2>элегантная обувь</h2>
+            <p>ботинки, кроссовки</p>
+        </div>
         <div class="test-item"></div>
         <div class="test-item"></div>
         <div class="test-item"></div>
