@@ -30,6 +30,7 @@ body a {
   position: relative;
   z-index: 99999;
   margin: 10px 0;
+  margin-bottom: 40px;
 }
 
 .wrapper header nav.categories {
@@ -55,9 +56,18 @@ body a {
   text-align: right;
 }
 
+.wrapper header::after {
+  width: 80%;
+  height: 2px;
+  background-color: #b6b3b3;
+  border: 2px solid red;
+}
+
 .wrapper main h1 {
   text-transform: uppercase;
   text-align: center;
+  font-size: 60px;
+  color: #b6b3b3;
 }
 
 .wrapper main h2 {
