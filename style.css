@@ -66,7 +66,7 @@ body a {
 .wrapper main h1 {
   text-transform: uppercase;
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   color: #b6b3b3;
 }
 
@@ -124,26 +124,79 @@ body a {
 }
 
 .wrapper main .gallery {
-  border: 1px solid black;
-  height: 900px;
-  vertical-align: middle;
+  width: 100%;
+  height: 800px;
   margin-top: 20px;
   position: relative;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
 }
 
 .wrapper main .gallery .gallery-item {
-  position: absolute;
-  width: 200px;
-  height: 300px;
-  border: 1px solid grey;
+  width: 25%;
+  height: 33%;
 }
 
 .wrapper main .gallery .gallery-item img {
-  position: absolute;
   width: 100%;
   height: 100%;
+}
+
+.wrapper main .gallery .gallery-item #high-block {
+  height: 201%;
+}
+
+.wrapper main .gallery h2 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.wrapper main .gallery h3 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.wrapper main .gallery p::first-letter {
+  text-transform: uppercase;
+}
+
+.wrapper main .gallery #season {
+  background-color: #b6b3b3;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+.wrapper main .gallery #season img {
+  width: 30px;
+  height: 30px;
+  margin-top: 20%;
+}
+
+.wrapper main .gallery #shoes {
+  background-color: #4d4c4c;
+  text-align: center;
+}
+
+.wrapper main .gallery #jeans {
+  background: url("/pseudoname/web-store/images/2.jpg");
+}
+
+.wrapper main .gallery #sports {
+  background: url("/pseudoname/web-store/images/6.jpg");
+}
+
+.wrapper main .subscribe {
+  margin-top: 100px;
 }
 
 .wrapper main .subscribe h2 {
@@ -157,6 +210,7 @@ body a {
   color: #b6b3b3;
   text-align: center;
   font-style: italic;
+  font-weight: 300;
 }
 
 .wrapper main .subscribe h3:first-letter {

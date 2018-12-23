@@ -7,78 +7,47 @@
     <button>
         <a href="#">посмотреть новинки</a>
     </button>
-
-    <div class="test">
-
-        <div class="test-item">
-            <img src="/pseudoname/web-store/images/1.jpg" alt="">
-        </div>
-        <div class="test-item">
-            <p>каждый сезон мы подготавливаем для вас исключительно лучшую модную одежду. Следите за новинками!</p>
-        </div>
-        <div class="test-item">
-            <img src="/pseudoname/web-store/images/2.jpg" alt="">
-        </div>
-        <div class="test-item">
-            <img src="/pseudoname/web-store/images/3.jpg" alt="">
-        </div>
-        <div class="test-item">
-            <h2>элегантная обувь</h2>
-            <p>ботинки, кроссовки</p>
-        </div>
-        <div class="test-item"></div>
-        <div class="test-item"></div>
-        <div class="test-item"></div>
-        <div class="test-item"></div>
-        <div class="test-item"></div>
-        <div class="test-item"></div>
-        <div class="test-item"></div>
-    </div>
     <div class="gallery">
-        <!-- <img src="/pseudoname/web-store/images/1.jpg" alt=""> -->
-
-
-        <div class="gallery-item">
+        <div class="gallery-item" >
+            <img src="/pseudoname/web-store/images/1.jpg" alt="" id="high-block">
+        </div>
+        <div class="gallery-item" id="season">
+            <img src="images\icon\attention-sign-outline.png" alt="">
             <p>каждый сезон мы подготавливаем для вас исключительно лучшую модную одежду. Следите за новинками!</p>
         </div>
         <div class="gallery-item">
-            <img src="/GitHub/Web-store/images/images/2.jpg" alt="">
+            <img src="images\3.jpg" alt="">
+        </div>
+        <div class="gallery-item" id="shoes">
+            <h2>элегантная обувь</h2>
+            <h3>ботинки, кроссовки</h3>
         </div>
         <div class="gallery-item">
-            <p>1</p>
+        </div>
+        <div class="gallery-item" id="jeans">
+            <h2>джинсы</h2>
+            <h3>от 3200 руб</h3>
+        </div>
+        <div class="gallery-item" id="season">
+            <img src="images\icon\attention-sign-outline.png" alt="">
+            <p>самые низкие цены в Москве. </p>
+            <p>нашли дешевле?</p>
+            <p>вернём разницу!</p>
         </div>
         <div class="gallery-item">
-            p{2}
+            <img src="/pseudoname/web-store/images/4.jpg" alt="" id="high-block">
         </div>
         <div class="gallery-item">
-            p{3}
+            <img src="images\5.jpg" alt="">
+        </div>
+        <div class="gallery-item" id="shoes">
+            <h2>аксессуары</h2>
+        </div>
+        <div class="gallery-item" id="sports">
+            <h2>спортивная одежда</h2>
+            <h3>от 590 руб</h3>
         </div>
         <div class="gallery-item">
-            p{4}
-        </div>
-        <div class="gallery-item">
-            p{5}
-        </div>
-        <div class="gallery-item">
-            p{6}
-        </div>
-        <div class="gallery-item">
-            p{7}
-        </div>
-        <div class="gallery-item">
-            p{8}
-        </div>
-        <div class="gallery-item">
-            p{9}
-        </div>
-        <div class="gallery-item">
-            p{10}
-        </div>
-        <div class="gallery-item">
-            p{11}
-        </div>
-        <div class="gallery-item">
-            p{12}
         </div>
     </div>
     <div class="subscribe">
