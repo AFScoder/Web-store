@@ -24,7 +24,13 @@
             </nav>
             <!-- вход/корзина -->
             <nav class="exitShop">
-                <a href="#">Войти</a>
-                <a href="#">Корзина</a>
+                <a href="#">
+                    <img src="images\icon\account.png" alt="">
+                    Войти
+                </a>
+                <a href="#">
+                    <img src="images\icon\bascet.png" alt="">
+                    Корзина
+                </a>
             </nav>
         </header>

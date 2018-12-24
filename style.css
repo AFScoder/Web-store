@@ -27,6 +27,7 @@ body a {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  height: 50px;
   position: relative;
   z-index: 99999;
   margin: 10px 0;
@@ -37,6 +38,7 @@ body a {
   position: absolute;
   width: 40%;
   left: 20%;
+  line-height: 50px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -54,6 +56,14 @@ body a {
   width: 40%;
   right: 10px;
   text-align: right;
+}
+
+.wrapper header nav.exitShop a {
+  line-height: 50px;
+}
+
+.wrapper header nav.exitShop a:hover {
+  color: blue;
 }
 
 .wrapper header::after {
@@ -99,28 +109,6 @@ body a {
 
 .wrapper main button a:hover {
   color: blue;
-}
-
-.wrapper main button:hover {
-  background: #b6b3b3;
-}
-
-.wrapper main .test {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  border: 1px solid black;
-  height: 800px;
-  margin: 20px 0;
-}
-
-.wrapper main .test .test-item {
-  height: 100px;
-  min-width: 25%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .wrapper main .gallery {
@@ -187,6 +175,12 @@ body a {
   text-align: center;
 }
 
+.wrapper main .gallery #shoes img {
+  margin-top: 50px;
+  width: 50px;
+  height: 40px;
+}
+
 .wrapper main .gallery #jeans {
   background: url("/pseudoname/web-store/images/2.jpg");
 }
@@ -197,6 +191,8 @@ body a {
 
 .wrapper main .subscribe {
   margin-top: 100px;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .wrapper main .subscribe h2 {
@@ -215,6 +211,37 @@ body a {
 
 .wrapper main .subscribe h3:first-letter {
   text-transform: uppercase;
+}
+
+.wrapper main .subscribe form {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.wrapper main .subscribe form input {
+  position: absolute;
+  width: 300px;
+  height: 38px;
+  border: 1px solid #b6b3b3;
+  top: 5px;
+  left: 350px;
+}
+
+.wrapper main .subscribe form button {
+  position: absolute;
+  width: 110px;
+  height: 40px;
+  right: -220px;
+  top: 5px;
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+.wrapper main .subscribe form button:hover {
+  color: blue;
 }
 
 .wrapper footer .footer-container {
@@ -264,9 +291,5 @@ body a {
   display: inline;
   margin: 10px;
   text-decoration: none;
-}
-
-.wrapper footer .footer-container .footer-container-item .footer-container-item-icons a:hover {
-  border: 2px solid white;
 }
 /*# sourceMappingURL=style.css.map */

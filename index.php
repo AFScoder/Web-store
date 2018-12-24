@@ -19,6 +19,7 @@
             <img src="images\3.jpg" alt="">
         </div>
         <div class="gallery-item" id="shoes">
+            <img src="images\icon\left-arrow.png" alt="">
             <h2>элегантная обувь</h2>
             <h3>ботинки, кроссовки</h3>
         </div>
@@ -41,6 +42,7 @@
             <img src="images\5.jpg" alt="">
         </div>
         <div class="gallery-item" id="shoes">
+            <img src="images\icon\left-arrow.png" alt="">
             <h2>аксессуары</h2>
         </div>
         <div class="gallery-item" id="sports">
@@ -54,8 +56,8 @@
         <h2>будь всегда в курсе выгодных предложений!</h2>
         <h3>подписывайся и следи за новинками и выгодными предложениями</h3>
         <form action="">
-            <input type="text" placeholder="Введите Ваш e-mail">
-            <button type="submit">Отправить</button>
+            <input type="text" placeholder="e-mail">
+            <button type="submit">записаться</button>
         </form>
     </div>
 </main>
